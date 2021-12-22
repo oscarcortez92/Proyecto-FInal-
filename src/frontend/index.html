@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="static/css/styles.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <main>
+            <!-- Navigation bar -->
+            <nav class="colorFondo" >
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo left" style="margin-left: 15px;">Smart Home</a>
+                    <ul id="nav-mobile" class="right" style="margin-right: 15px;">
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </nav>	
+             
+
+            <!-- Page Body -->
+            <div class="container">
+                <br/>
+                <h3>DISPOSITIVOS</h3>
+                
+                <br/>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12 xl12">
+                        <ul class="collection" id = "lista">
+                        </ul>
+                        <textarea id="textarea_1" class="materialize-textarea" style="height: 100px;" readonly></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s2 m2 l2 xl2">
+                          <input  id="id_buscar" type="text" class="validate">
+                          <label class="active" for="first_name2">QUE ID DESEA BUSCAR</label>
+                        </div>
+                      </div>
+                    <div class="col s3 m3 l3 xl3">
+                        <button id="btn1" class="btn waves-effect waves-light button-view" name="hello_button">BUSCAR DISP</button>
+                        
+                    </div>
+                    <div class="col s3 m3 l3 xl3">
+                        
+                        <button id="btn2" class="btn waves-effect waves-light button-view" name="hello_button">AGREGAR DISP</button>
+                      
+                    </div>
+                    <div class="col s3 m3 l3 xl3">
+                        
+                        <button id="btnEditar" class="btn waves-effect waves-light button-view" name="hello_button">EDITAR DISP</button>
+                    </div>
+                    <div class="col s3 m3 l3 xl3">
+                        
+                        <button id="btnBorrar" class="btn waves-effect waves-light button-view" name="hello_button">BORRAR DISP</button>
+                    </div>
+                </div>
+                <!-- Modal Trigger -->
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                    </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>	        
+            
+        </main>
+		<!-- Page Footer -->
+        <footer class="page-footer colorFondo" >
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s6">
+                        <h5 class="white-text">Smart Home</h5>
+                        <p class="grey-text text-lighten-4">Copyright ### - 2021</p>
+                    </div>
+                    <div class="col l6 s6">
+                        <h5 class="white-text right-align">Contact</h5>
+                        <p class="white-text right-align">
+                            <a class="grey-text text-lighten-3" href="!#">Email | </a>
+                            <a class="grey-text text-lighten-3" href="!#">Twitter | </a>
+                            <a class="grey-text text-lighten-3" href="!#">LinkedIn</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!--JavaScript at end of body for optimized loading-->
+		<script type="text/javascript" src="./static/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/handlerPOST.js"></script>
+		<script type="text/javascript" src="js/MyFramework.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/user.js"></script>
+    </body>
+  </html>
